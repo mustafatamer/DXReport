@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXReport", "DXReport\DXReport.csproj", "{F57FB942-3E91-49BE-A717-B1EF3C4A87CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57FB942-3E91-49BE-A717-B1EF3C4A87CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57FB942-3E91-49BE-A717-B1EF3C4A87CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57FB942-3E91-49BE-A717-B1EF3C4A87CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57FB942-3E91-49BE-A717-B1EF3C4A87CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A128BED8-6A69-4DFF-9BE9-7DBE4C6E90E8}
+	EndGlobalSection
+EndGlobal
