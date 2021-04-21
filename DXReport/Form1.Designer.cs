@@ -49,10 +49,28 @@ namespace DXReport
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo16 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo17 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo18 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo19 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings1 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
             DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions1 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings1);
-            this.excelDataSource1 = new DevExpress.DataAccess.Excel.ExcelDataSource();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo19 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo20 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo21 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo22 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo23 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo24 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo25 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo26 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo27 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo28 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo29 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo30 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo31 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo32 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo33 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo34 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo35 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings2 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
+            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions2 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings2);
+            this.excelDataSource2_Sayfa = new DevExpress.DataAccess.Excel.ExcelDataSource();
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.noDocumentsView1 = new DevExpress.XtraBars.Docking2010.Views.NoDocuments.NoDocumentsView(this.components);
@@ -69,6 +87,7 @@ namespace DXReport
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.excelDataSourceArkaSayfa = new DevExpress.DataAccess.Excel.ExcelDataSource();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.noDocumentsView1)).BeginInit();
@@ -82,12 +101,12 @@ namespace DXReport
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             this.SuspendLayout();
             // 
-            // excelDataSource1
+            // excelDataSource2_Sayfa
             // 
-            this.excelDataSource1.FileName = "C:\\Users\\mustafa.tamer\\Desktop\\HAKEDİŞ_2020_v5 EK6 VE EKLERİ İÇİN.xlsm";
-            this.excelDataSource1.Name = "excelDataSource1";
-            this.excelDataSource1.ResultSchemaSerializable = resources.GetString("excelDataSource1.ResultSchemaSerializable");
-            fieldInfo1.Name = "KCETAŞ\nKAYSERİ VE CİVARI ELEKTRİK TÜRK A.Ş.\nYatırım ve Tesis Müdürlüğü";
+            this.excelDataSource2_Sayfa.FileName = "\\\\10.100.13.124\\yenİ sİstem hakedİş\\2020\\HAKEDİŞ_2020_v5.xlsm";
+            this.excelDataSource2_Sayfa.Name = "excelDataSource2_Sayfa";
+            this.excelDataSource2_Sayfa.ResultSchemaSerializable = resources.GetString("excelDataSource2_Sayfa.ResultSchemaSerializable");
+            fieldInfo1.Name = "Column1";
             fieldInfo1.Type = typeof(string);
             fieldInfo2.Name = "Column2";
             fieldInfo2.Type = typeof(string);
@@ -110,7 +129,7 @@ namespace DXReport
             fieldInfo11.Name = "Column11";
             fieldInfo11.Type = typeof(string);
             fieldInfo12.Name = "Column12";
-            fieldInfo12.Type = typeof(double);
+            fieldInfo12.Type = typeof(string);
             fieldInfo13.Name = "Column13";
             fieldInfo13.Type = typeof(string);
             fieldInfo14.Name = "Column14";
@@ -119,13 +138,11 @@ namespace DXReport
             fieldInfo15.Type = typeof(string);
             fieldInfo16.Name = "Column16";
             fieldInfo16.Type = typeof(string);
-            fieldInfo17.Name = "11111111";
+            fieldInfo17.Name = "Column17";
             fieldInfo17.Type = typeof(string);
             fieldInfo18.Name = "Column18";
             fieldInfo18.Type = typeof(string);
-            fieldInfo19.Name = "Column19";
-            fieldInfo19.Type = typeof(double);
-            this.excelDataSource1.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
+            this.excelDataSource2_Sayfa.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
             fieldInfo1,
             fieldInfo2,
             fieldInfo3,
@@ -143,16 +160,15 @@ namespace DXReport
             fieldInfo15,
             fieldInfo16,
             fieldInfo17,
-            fieldInfo18,
-            fieldInfo19});
+            fieldInfo18});
             excelWorksheetSettings1.CellRange = null;
-            excelWorksheetSettings1.WorksheetName = "ARKA SYF";
+            excelWorksheetSettings1.WorksheetName = "2. KAPAK";
             excelSourceOptions1.ImportSettings = excelWorksheetSettings1;
             excelSourceOptions1.SkipEmptyRows = false;
             excelSourceOptions1.SkipHiddenColumns = false;
             excelSourceOptions1.SkipHiddenRows = false;
             excelSourceOptions1.UseFirstRowAsHeader = false;
-            this.excelDataSource1.SourceOptions = excelSourceOptions1;
+            this.excelDataSource2_Sayfa.SourceOptions = excelSourceOptions1;
             // 
             // documentManager1
             // 
@@ -285,6 +301,72 @@ namespace DXReport
             this.layoutControlGroup1.Size = new System.Drawing.Size(186, 445);
             this.layoutControlGroup1.TextVisible = false;
             // 
+            // excelDataSourceArkaSayfa
+            // 
+            this.excelDataSourceArkaSayfa.FileName = "\\\\10.100.13.124\\yenİ sİstem hakedİş\\2020\\HAKEDİŞ_2020_v5.xlsm";
+            this.excelDataSourceArkaSayfa.Name = "excelDataSourceArkaSayfa";
+            this.excelDataSourceArkaSayfa.ResultSchemaSerializable = resources.GetString("excelDataSourceArkaSayfa.ResultSchemaSerializable");
+            fieldInfo19.Name = "Column1";
+            fieldInfo19.Type = typeof(string);
+            fieldInfo20.Name = "Column2";
+            fieldInfo20.Type = typeof(string);
+            fieldInfo21.Name = "Column3";
+            fieldInfo21.Type = typeof(string);
+            fieldInfo22.Name = "Column4";
+            fieldInfo22.Type = typeof(string);
+            fieldInfo23.Name = "Column5";
+            fieldInfo23.Type = typeof(string);
+            fieldInfo24.Name = "Column6";
+            fieldInfo24.Type = typeof(string);
+            fieldInfo25.Name = "Column7";
+            fieldInfo25.Type = typeof(string);
+            fieldInfo26.Name = "Column8";
+            fieldInfo26.Type = typeof(string);
+            fieldInfo27.Name = "Column9";
+            fieldInfo27.Type = typeof(string);
+            fieldInfo28.Name = "Column10";
+            fieldInfo28.Type = typeof(string);
+            fieldInfo29.Name = "Column11";
+            fieldInfo29.Type = typeof(string);
+            fieldInfo30.Name = "Column12";
+            fieldInfo30.Type = typeof(string);
+            fieldInfo31.Name = "Column13";
+            fieldInfo31.Type = typeof(string);
+            fieldInfo32.Name = "Column14";
+            fieldInfo32.Type = typeof(string);
+            fieldInfo33.Name = "Column15";
+            fieldInfo33.Type = typeof(string);
+            fieldInfo34.Name = "Column16";
+            fieldInfo34.Type = typeof(string);
+            fieldInfo35.Name = "Column17";
+            fieldInfo35.Type = typeof(string);
+            this.excelDataSourceArkaSayfa.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
+            fieldInfo19,
+            fieldInfo20,
+            fieldInfo21,
+            fieldInfo22,
+            fieldInfo23,
+            fieldInfo24,
+            fieldInfo25,
+            fieldInfo26,
+            fieldInfo27,
+            fieldInfo28,
+            fieldInfo29,
+            fieldInfo30,
+            fieldInfo31,
+            fieldInfo32,
+            fieldInfo33,
+            fieldInfo34,
+            fieldInfo35});
+            excelWorksheetSettings2.CellRange = null;
+            excelWorksheetSettings2.WorksheetName = "ARKA SYF";
+            excelSourceOptions2.ImportSettings = excelWorksheetSettings2;
+            excelSourceOptions2.SkipEmptyRows = false;
+            excelSourceOptions2.SkipHiddenColumns = false;
+            excelSourceOptions2.SkipHiddenRows = false;
+            excelSourceOptions2.UseFirstRowAsHeader = false;
+            this.excelDataSourceArkaSayfa.SourceOptions = excelSourceOptions2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,7 +413,8 @@ namespace DXReport
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource1;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource2_Sayfa;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSourceArkaSayfa;
     }
 }
 
