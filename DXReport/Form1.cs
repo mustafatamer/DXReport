@@ -79,6 +79,7 @@ namespace DXReport
             (report2_Sayfa.FindControl("xrLabelYiliOdenegi", false) as XRLabel).Text = dv.Columns[1].GetValue(dv[22]).ToString();
             (report2_Sayfa.FindControl("xrLabelKontrolMuh", false) as XRLabel).Text = dv.Columns[7].GetValue(dv[23]).ToString();
             (report2_Sayfa.FindControl("xrLabelSantiyeSefi", false) as XRLabel).Text = dv.Columns[7].GetValue(dv[24]).ToString();
+            (report2_Sayfa.FindControl("xrLabelIsinAdi", false) as XRLabel).Text = dv.Columns[1].GetValue(dv[7]).ToString();
 
             report2_Sayfa.ShowPreview();
 

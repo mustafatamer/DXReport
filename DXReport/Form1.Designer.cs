@@ -103,7 +103,8 @@ namespace DXReport
             // 
             // excelDataSource2_Sayfa
             // 
-            this.excelDataSource2_Sayfa.FileName = "\\\\10.100.13.124\\yenİ sİstem hakedİş\\2020\\HAKEDİŞ_2020_v5.xlsm";
+            this.excelDataSource2_Sayfa.FileName = "\\\\10.100.13.124\\yatirim hakedİş\\TESİS KONTROL\\YENİ SİSTEM HAKEDİŞ\\2020\\HAKEDİŞ_20" +
+    "20_v5.xlsm";
             this.excelDataSource2_Sayfa.Name = "excelDataSource2_Sayfa";
             this.excelDataSource2_Sayfa.ResultSchemaSerializable = resources.GetString("excelDataSource2_Sayfa.ResultSchemaSerializable");
             fieldInfo1.Name = "Column1";
@@ -303,7 +304,8 @@ namespace DXReport
             // 
             // excelDataSourceArkaSayfa
             // 
-            this.excelDataSourceArkaSayfa.FileName = "\\\\10.100.13.124\\yenİ sİstem hakedİş\\2020\\HAKEDİŞ_2020_v5.xlsm";
+            this.excelDataSourceArkaSayfa.FileName = "\\\\10.100.13.124\\yatirim hakedİş\\TESİS KONTROL\\YENİ SİSTEM HAKEDİŞ\\2020\\HAKEDİŞ_20" +
+    "20_v5.xlsm";
             this.excelDataSourceArkaSayfa.Name = "excelDataSourceArkaSayfa";
             this.excelDataSourceArkaSayfa.ResultSchemaSerializable = resources.GetString("excelDataSourceArkaSayfa.ResultSchemaSerializable");
             fieldInfo19.Name = "Column1";
